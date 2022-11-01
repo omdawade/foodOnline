@@ -80,7 +80,7 @@ class User(AbstractBaseUser):
 
     def get_role(self):
         if self.role == 1:
-            user_role = 'restaurant'
+            user_role = 'Vendor'
         elif self.role == 2:
             user_role = 'Customer'
         return user_role
